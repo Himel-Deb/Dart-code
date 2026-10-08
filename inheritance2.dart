@@ -19,7 +19,6 @@ class BikashPayment extends Payment {
   }
 }
 
-
 class BankPayment extends Payment {
   BankPayment(String userName, double amount)
     :super(userName, amount);
